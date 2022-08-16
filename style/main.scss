@@ -1,7 +1,19 @@
-p {
-  font: {
-    style: italic;
-    weight: 700;
-    size: 28px;
+.first_btn {
+  width: 100px;
+  height: 45px;
+  &:hover {
+    background: {
+      color: skyblue;
+    }
+  }
+}
+
+.second_btn {
+  width: 100px;
+  height: 45px;
+  &:hover {
+    background: {
+      color: orange;
+    }
   }
 }

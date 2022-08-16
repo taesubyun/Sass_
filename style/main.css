@@ -1,5 +1,15 @@
-p {
-  font-style: italic;
-  font-weight: 700;
-  font-size: 28px;
+.first_btn {
+  width: 100px;
+  height: 45px;
+}
+.first_btn:hover {
+  background-color: skyblue;
+}
+
+.second_btn {
+  width: 100px;
+  height: 45px;
+}
+.second_btn:hover {
+  background-color: orange;
 }/*# sourceMappingURL=main.css.map */

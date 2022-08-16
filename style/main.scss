@@ -1,23 +1,16 @@
-$main_color: tomato;
-$font_color: white;
-$btn_width: 299px;
-button {
-  &:nth-child(1) {
-    color: $font_color;
-    background-color: $main_color;
-    width: $btn_width;
-    height: 55px;
-  }
-  &:nth-child(2) {
-    color: $font_color;
-    background-color: $main_color;
-    width: $btn_width;
-    height: 55px;
-  }
-  &:nth-child(3) {
-    color: $font_color;
-    background-color: $main_color;
-    width: $btn_width;
-    height: 55px;
-  }
+@mixin box_style {
+  width: 320px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightcoral;
+}
+
+.one {
+  @include box_style;
+}
+
+.two {
+  @include box_style;
 }

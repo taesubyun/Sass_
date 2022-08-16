@@ -1,18 +1,17 @@
-button:nth-child(1) {
-  color: white;
-  background-color: tomato;
-  width: 299px;
-  height: 55px;
+.one {
+  width: 320px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightcoral;
 }
-button:nth-child(2) {
-  color: white;
-  background-color: tomato;
-  width: 299px;
-  height: 55px;
-}
-button:nth-child(3) {
-  color: white;
-  background-color: tomato;
-  width: 299px;
-  height: 55px;
+
+.two {
+  width: 320px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightcoral;
 }/*# sourceMappingURL=main.css.map */

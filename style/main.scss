@@ -1,19 +1,23 @@
-.first_btn {
-  width: 100px;
-  height: 45px;
-  &:hover {
-    background: {
-      color: skyblue;
-    }
+$main_color: tomato;
+$font_color: white;
+$btn_width: 299px;
+button {
+  &:nth-child(1) {
+    color: $font_color;
+    background-color: $main_color;
+    width: $btn_width;
+    height: 55px;
   }
-}
-
-.second_btn {
-  width: 100px;
-  height: 45px;
-  &:hover {
-    background: {
-      color: orange;
-    }
+  &:nth-child(2) {
+    color: $font_color;
+    background-color: $main_color;
+    width: $btn_width;
+    height: 55px;
+  }
+  &:nth-child(3) {
+    color: $font_color;
+    background-color: $main_color;
+    width: $btn_width;
+    height: 55px;
   }
 }

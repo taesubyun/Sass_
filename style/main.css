@@ -1,15 +1,18 @@
-.first_btn {
-  width: 100px;
-  height: 45px;
+button:nth-child(1) {
+  color: white;
+  background-color: tomato;
+  width: 299px;
+  height: 55px;
 }
-.first_btn:hover {
-  background-color: skyblue;
+button:nth-child(2) {
+  color: white;
+  background-color: tomato;
+  width: 299px;
+  height: 55px;
 }
-
-.second_btn {
-  width: 100px;
-  height: 45px;
-}
-.second_btn:hover {
-  background-color: orange;
+button:nth-child(3) {
+  color: white;
+  background-color: tomato;
+  width: 299px;
+  height: 55px;
 }/*# sourceMappingURL=main.css.map */

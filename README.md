@@ -1,9 +1,10 @@
 # Sass_
   ### ✍️ Learning Sass
+![스크린샷 2022-08-16 오후 6 54 58](https://user-images.githubusercontent.com/72742121/184851796-8079e12f-b2ee-4a10-9557-08211a34f701.png)
 
 
 - link href="style/main.css" rel="stylesheet" /
-
+- compile : scss / css
   
 - 빌드업 명령어 
   - sass style/main.scss:style/main.css

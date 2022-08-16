@@ -1,12 +1,7 @@
-.container {
-  background-color: chartreuse;
-  h1 {
-    color: violet;
-  }
-  p {
-    color: tomato;
-    span {
-      color: white;
-    }
+p {
+  font: {
+    style: italic;
+    weight: 700;
+    size: 28px;
   }
 }

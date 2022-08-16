@@ -1,16 +1,17 @@
-@mixin box_style($bg-color) {
+@mixin box_style($bg-color, $font-color) {
   width: 320px;
   height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: $bg-color;
+  color: $font-color;
 }
 
 .one {
-  @include box_style(red);
+  @include box_style(red, yellow);
 }
 
 .two {
-  @include box_style(pink);
+  @include box_style(pink, black);
 }

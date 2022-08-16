@@ -1,6 +1,12 @@
-h1 {
-  color: whitesmoke;
-  background-color: orangered;
+.container {
+  background-color: chartreuse;
 }
-
-/*# sourceMappingURL=main.css.map */
+.container h1 {
+  color: violet;
+}
+.container p {
+  color: tomato;
+}
+.container p span {
+  color: white;
+}/*# sourceMappingURL=main.css.map */

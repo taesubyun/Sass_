@@ -1,4 +1,12 @@
-h1 {
-  color: whitesmoke;
-  background-color: orangered;
+.container {
+  background-color: chartreuse;
+  h1 {
+    color: violet;
+  }
+  p {
+    color: tomato;
+    span {
+      color: white;
+    }
+  }
 }

@@ -32,5 +32,5 @@
 
     - 믹스인 인자 
       - 인자를 취한다 (여러 인자 활용)
-      - ex. 정의 : @mixin my-font ($font-color) {color: $font-color;}
-          호출 : h1 {@include my-font(red)}
+      - 정의 : @mixin my-font ($font-color) {color: $font-color;}
+      - 호출 : h1 {@include my-font(red)}
